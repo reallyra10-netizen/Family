@@ -1,69 +1,90 @@
+import { Metadata } from "next";
 import Image from "next/image";
+export const metadata: Metadata = {
+  title: 'HomePage',
+  description: "LEGOBiz is the platform which review about the e-commerce products which supported with the store of clothes, trouser, for Cambodia.",
+  keywords:"Clothes for women, Clothes for men, Clothes for kid, E-commerce, discount, popular T-Shirt, online shop.",
+  openGraph:{
+    title: {
+    template:'%s | RULES OF SURVIVAL',
+    default: 'RULES OF SURVIVAL'
+  },
+    description: "Core Gameplay MechanicsWhen the game was active, it followed the classic battle royale loop: [1] (https://en.wikipedia.org/wiki/Rules_of_Survival)Massive Player Count: While starting with 120 players on its standard Ghillie Island map, it eventually broke genre records by allowing up to 300 players simultaneously on its massive Fearless Fjord map",
+    images:['https://cdn.aptoide.com/imgs/6/8/e/68e623efeec40551639649fc9d7e9cac_screen.jpg']
+  }
+};
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
+    <main className="dark:bg-gray-800 bg-white relative overflow-hidden h-screen">
+  <header className="h-24 sm:h-32 flex items-center z-30 w-full">
+    <div className="container mx-auto px-6 flex items-center justify-between">
+      <div className="uppercase text-gray-800 dark:text-white font-black text-3xl">
+        Watch.ME
+      </div>
+      <div className="flex items-center">
+        <nav className="font-sen text-gray-800 dark:text-white uppercase text-lg lg:flex items-center hidden">
+          <a href="#" className="py-2 px-6 flex">
+            Home
           </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
+          <a href="#" className="py-2 px-6 flex">
+            Watch
           </a>
-        </div>
-      </main>
+          <a href="#" className="py-2 px-6 flex">
+            Product
+          </a>
+          <a href="#" className="py-2 px-6 flex">
+            Contact
+          </a>
+          <a href="#" className="py-2 px-6 flex">
+            Carrer
+          </a>
+        </nav>
+        <button className="lg:hidden flex flex-col ml-4">
+          <span className="w-6 h-1 bg-gray-800 dark:bg-white mb-1"></span>
+          <span className="w-6 h-1 bg-gray-800 dark:bg-white mb-1"></span>
+          <span className="w-6 h-1 bg-gray-800 dark:bg-white mb-1"></span>
+        </button>
+      </div>
     </div>
+  </header>
+  <div className="bg-white dark:bg-gray-800 flex relative z-20 items-center overflow-hidden">
+    <div className="container mx-auto px-6 flex relative py-16">
+      <div className="sm:w-2/3 lg:w-2/5 flex flex-col relative z-20">
+        <span className="w-20 h-2 bg-gray-800 dark:bg-white mb-12"></span>
+        <h1 className="font-bebas-neue uppercase text-6xl sm:text-8xl font-black flex flex-col leading-none dark:text-white text-gray-800">
+          Be on
+          <span className="text-5xl sm:text-7xl">Time</span>
+        </h1>
+        <p className="text-sm sm:text-base text-gray-700 dark:text-white">
+          Dimension of reality that makes change possible and understandable. An
+          indefinite and homogeneous environment in which natural events and
+          human existence take place.
+        </p>
+        <div className="flex mt-8">
+          <a
+            href="#"
+            className="uppercase py-2 px-4 rounded-lg bg-pink-500 border-2 border-transparent text-white text-md mr-4 hover:bg-pink-400"
+          >
+            Get started
+          </a>
+          <a
+            href="#"
+            className="uppercase py-2 px-4 rounded-lg bg-transparent border-2 border-pink-500 text-pink-500 dark:text-white hover:bg-pink-500 hover:text-white text-md"
+          >
+            Read more
+          </a>
+        </div>
+      </div>
+      <div className="hidden sm:block sm:w-1/3 lg:w-3/5 relative">
+        <img
+          src="https://www.tailwind-kit.com/images/object/10.png"
+          className="max-w-xs md:max-w-sm m-auto"
+        />
+      </div>
+    </div>
+  </div>
+</main>
+
   );
 }
