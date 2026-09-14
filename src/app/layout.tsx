@@ -25,10 +25,10 @@ export const metadata: Metadata = {
   keywords:"Clothes for women, Clothes for men, Clothes for kid, E-commerce, discount, popular T-Shirt, online shop.",
   openGraph:{
     title: {
-    template:'%s | RULES OF SURVIVAL',
-    default: 'RULES OF SURVIVAL'
+    template:'%s | FAMILY',
+    default: 'FAMILY'
   },
-    description: "AI Mode conversation: rule of survivalrule of survivalRules of Survival (ROS) was a highly popular free-to-play mobile and PC battle royale game developed and published by NetEase Games. First released globally in November 2017, it gained massive traction as one of the earliest mobile clones of PlayerUnknown's Battlegrounds (PUBG). [1] (https://rules-of-survival.en.uptodown.com/windows), [2] (https://www.neteasegames.com/news/20230612/37000_1000521.html), [3] (https://www.youtube.com/watch?v=HSYHNXLPAEw&t=528)Notably, NetEase officially shut down the Rules of Survival servers on June 27, 2022, meaning the original game is no longer playable online. However, the franchise saw a brief continuation with the launch of Rules of Survival 2.0 in early 2022. [1] (https://www.youtube.com/watch?v=-pO1AIal01I), [2] (https://rules-of-survival.en.aptoide.com/app), [3] (https://rules-of-survival-2-0.en.uptodown.com/windows), [4] (https://www.neteasegames.com/news/20230612/37000_1000521.html)",
+    description: "Quality Over Quantity: Every garment undergoes rigorous wear-testing to ensure it holds its shape, color, and hand-feel wash after wash.",
     images:['https://cdn.aptoide.com/imgs/6/8/e/68e623efeec40551639649fc9d7e9cac_screen.jpg']
   }
 };

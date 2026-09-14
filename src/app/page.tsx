@@ -6,10 +6,10 @@ export const metadata: Metadata = {
   keywords:"Clothes for women, Clothes for men, Clothes for kid, E-commerce, discount, popular T-Shirt, online shop.",
   openGraph:{
     title: {
-    template:'%s | RULES OF SURVIVAL',
-    default: 'RULES OF SURVIVAL'
+    template:'%s | FAMILY',
+    default: 'FAMILY'
   },
-    description: "Core Gameplay MechanicsWhen the game was active, it followed the classic battle royale loop: [1] (https://en.wikipedia.org/wiki/Rules_of_Survival)Massive Player Count: While starting with 120 players on its standard Ghillie Island map, it eventually broke genre records by allowing up to 300 players simultaneously on its massive Fearless Fjord map",
+    description: "From our factory floors to your doorstep, we believe in open communication about how and where your clothes are made.",
     images:['https://cdn.aptoide.com/imgs/6/8/e/68e623efeec40551639649fc9d7e9cac_screen.jpg']
   }
 };
