@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     default: 'FAMILY'
   },
     description: "Quality Over Quantity: Every garment undergoes rigorous wear-testing to ensure it holds its shape, color, and hand-feel wash after wash.",
-    images:['https://cdn.aptoide.com/imgs/6/8/e/68e623efeec40551639649fc9d7e9cac_screen.jpg']
+    images:['/Thumbernail.jpg']
   }
 };
 

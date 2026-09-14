@@ -1,16 +1,13 @@
 import { Metadata } from "next";
 import Image from "next/image";
 export const metadata: Metadata = {
-  title: 'HomePage',
-  description: "LEGOBiz is the platform which review about the e-commerce products which supported with the store of clothes, trouser, for Cambodia.",
-  keywords:"Clothes for women, Clothes for men, Clothes for kid, E-commerce, discount, popular T-Shirt, online shop.",
+  title: 'ROS Store - Premium Online Shopping',
+  description: "Discover quality products at unbeatable prices. Shop our curated collection of premium items across multiple categories.",
+  keywords:"online store, shopping, products, e-commerce, quality items, discount, premium, retail",
   openGraph:{
-    title: {
-    template:'%s | FAMILY',
-    default: 'FAMILY'
-  },
-    description: "From our factory floors to your doorstep, we believe in open communication about how and where your clothes are made.",
-    images:['https://cdn.aptoide.com/imgs/6/8/e/68e623efeec40551639649fc9d7e9cac_screen.jpg']
+    title: 'ROS Store - Premium Online Shopping',
+    description: "Discover quality products at unbeatable prices. Shop our curated collection.",
+    images:['/Thumbernail.jpg']
   }
 };
 
